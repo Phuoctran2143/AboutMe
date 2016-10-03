@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="X3u-G2-h64">
+            <objects>
+                <viewController id="aM0-Ix-tmk" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wT8-g1-aAI"/>
+                        <viewControllerLayoutGuide type="bottom" id="feg-0b-Dw2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6wu-ah-Mku">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="baobab tree" translatesAutoresizingMaskIntoConstraints="NO" id="veF-un-27p">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Ub-nu-sFV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-741" y="155"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="pNa-ic-brR">
+            <objects>
+                <viewController id="lr5-pT-SbA" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bvu-rR-IP5"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZGK-WB-CUd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Tr2-S0-wsc">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BuM-wd-3sd">
+                                <rect key="frame" x="252" y="68" width="44" height="30"/>
+                                <state key="normal" title="Family"/>
+                                <connections>
+                                    <segue destination="aM0-Ix-tmk" kind="show" id="RTn-GW-moC"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EQo-lT-oCn">
+                                <rect key="frame" x="224" y="5" width="133" height="28"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Phuoc Tran">
+                                        <attributes>
+                                            <color key="NSColor" red="0.30478229429999998" green="1" blue="0.27517535980000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="24" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CwG-y7-GyC">
+                                <rect key="frame" x="239" y="177" width="70" height="30"/>
+                                <state key="normal" title="Aspiration"/>
+                                <connections>
+                                    <segue destination="IbQ-1W-hhj" kind="show" id="ZOu-lQ-qFY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zPv-6S-Umu">
+                                <rect key="frame" x="246" y="296" width="57" height="30"/>
+                                <state key="normal" title="Hobbies"/>
+                                <connections>
+                                    <segue destination="Z21-sw-Igb" kind="show" id="C9u-IH-cQF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gzp-Qa-LHt">
+                                <rect key="frame" x="246" y="457" width="59" height="30"/>
+                                <state key="normal" title="Ideology"/>
+                                <connections>
+                                    <segue destination="3kj-yl-5c9" kind="show" id="Hby-3g-vKe"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IAX-qR-Pgo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="11" y="438"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Abg-Eq-jtO">
+            <objects>
+                <viewController id="Z21-sw-Igb" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FBA-6v-v3q"/>
+                        <viewControllerLayoutGuide type="bottom" id="sqN-oL-OoL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TSo-yb-AN9">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brain image" translatesAutoresizingMaskIntoConstraints="NO" id="w26-P5-gqZ">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Egd-v8-moa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-821" y="1070"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Pqf-ZJ-15l">
+            <objects>
+                <viewController id="IbQ-1W-hhj" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wVh-1l-zbZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="aBC-gH-CVq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7Gn-BA-7mv">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="135802-135961" translatesAutoresizingMaskIntoConstraints="NO" id="xHg-S3-cvv">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xj5-8L-0k1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="821" y="47"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ma2-7K-uOH">
+            <objects>
+                <viewController id="3kj-yl-5c9" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LWm-Rf-3Lb"/>
+                        <viewControllerLayoutGuide type="bottom" id="h2X-Uo-W8S"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="j5r-9B-ozv">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0eg-7E-CFk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="821" y="1174"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="135802-135961" width="213" height="141"/>
+        <image name="baobab tree" width="194" height="259"/>
+        <image name="brain image" width="1600" height="900"/>
+    </resources>
+</document>
