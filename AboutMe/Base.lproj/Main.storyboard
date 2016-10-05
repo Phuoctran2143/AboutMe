@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Family-->
         <scene sceneID="X3u-G2-h64">
             <objects>
-                <viewController id="aM0-Ix-tmk" sceneMemberID="viewController">
+                <viewController id="aM0-Ix-tmk" customClass="Family" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wT8-g1-aAI"/>
                         <viewControllerLayoutGuide type="bottom" id="feg-0b-Dw2"/>
@@ -20,18 +20,28 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="baobab tree" translatesAutoresizingMaskIntoConstraints="NO" id="veF-un-27p">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dfs-61-FgT">
+                                <rect key="frame" x="406" y="560" width="194" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Return to homepage">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="lr5-pT-SbA" kind="show" id="AHC-dG-R9u"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Ub-nu-sFV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-741" y="155"/>
+            <point key="canvasLocation" x="-739" y="147"/>
         </scene>
-        <!--View Controller-->
+        <!--Homepage-->
         <scene sceneID="pNa-ic-brR">
             <objects>
-                <viewController id="lr5-pT-SbA" sceneMemberID="viewController">
+                <viewController id="lr5-pT-SbA" customClass="Homepage" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bvu-rR-IP5"/>
                         <viewControllerLayoutGuide type="bottom" id="ZGK-WB-CUd"/>
@@ -40,45 +50,53 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BuM-wd-3sd">
-                                <rect key="frame" x="252" y="68" width="44" height="30"/>
-                                <state key="normal" title="Family"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sky-space-galaxy-milky-way" translatesAutoresizingMaskIntoConstraints="NO" id="7Ys-uw-82k">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="605"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Od-u7-fRL">
+                                <rect key="frame" x="246" y="392" width="93" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Hobbies">
+                                    <color key="titleColor" red="1" green="1" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
-                                    <segue destination="aM0-Ix-tmk" kind="show" id="RTn-GW-moC"/>
+                                    <segue destination="Z21-sw-Igb" kind="show" id="mVq-Lp-UAh"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EQo-lT-oCn">
-                                <rect key="frame" x="224" y="5" width="133" height="28"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Phuoc Tran">
-                                        <attributes>
-                                            <color key="NSColor" red="0.30478229429999998" green="1" blue="0.27517535980000002" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="24" name="HelveticaNeue"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kwz-G6-Heb">
+                                <rect key="frame" x="236" y="265" width="112" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Aspiration">
+                                    <color key="titleColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="IbQ-1W-hhj" kind="show" id="fpG-ig-2GW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AS6-aJ-oUJ">
+                                <rect key="frame" x="254" y="136" width="77" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Family">
+                                    <color key="titleColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="aM0-Ix-tmk" kind="show" id="6HA-CE-lwS"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Phuoc Tran" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yxZ-Bw-eeI">
+                                <rect key="frame" x="219" y="28" width="190" height="32"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CwG-y7-GyC">
-                                <rect key="frame" x="239" y="177" width="70" height="30"/>
-                                <state key="normal" title="Aspiration"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qbt-9g-eAm">
+                                <rect key="frame" x="244" y="507" width="96" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Ideology">
+                                    <color key="titleColor" red="1" green="1" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
-                                    <segue destination="IbQ-1W-hhj" kind="show" id="ZOu-lQ-qFY"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zPv-6S-Umu">
-                                <rect key="frame" x="246" y="296" width="57" height="30"/>
-                                <state key="normal" title="Hobbies"/>
-                                <connections>
-                                    <segue destination="Z21-sw-Igb" kind="show" id="C9u-IH-cQF"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gzp-Qa-LHt">
-                                <rect key="frame" x="246" y="457" width="59" height="30"/>
-                                <state key="normal" title="Ideology"/>
-                                <connections>
-                                    <segue destination="3kj-yl-5c9" kind="show" id="Hby-3g-vKe"/>
+                                    <segue destination="3kj-yl-5c9" kind="show" id="Pbn-el-eas"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -89,10 +107,10 @@
             </objects>
             <point key="canvasLocation" x="11" y="438"/>
         </scene>
-        <!--View Controller-->
+        <!--Hobbies-->
         <scene sceneID="Abg-Eq-jtO">
             <objects>
-                <viewController id="Z21-sw-Igb" sceneMemberID="viewController">
+                <viewController id="Z21-sw-Igb" customClass="Hobbies" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="FBA-6v-v3q"/>
                         <viewControllerLayoutGuide type="bottom" id="sqN-oL-OoL"/>
@@ -104,18 +122,28 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="c8007e9cc7c5224c-Basketball-Image" translatesAutoresizingMaskIntoConstraints="NO" id="w26-P5-gqZ">
                                 <rect key="frame" x="0.0" y="-40" width="600" height="640"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pwy-2n-FUn">
+                                <rect key="frame" x="417" y="560" width="183" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Return to homepage">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="lr5-pT-SbA" kind="show" id="6NK-r1-cYy"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Egd-v8-moa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-821" y="1070"/>
+            <point key="canvasLocation" x="-727" y="1050"/>
         </scene>
-        <!--View Controller-->
+        <!--Aspiration-->
         <scene sceneID="Pqf-ZJ-15l">
             <objects>
-                <viewController id="IbQ-1W-hhj" sceneMemberID="viewController">
+                <viewController id="IbQ-1W-hhj" customClass="Aspiration" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wVh-1l-zbZ"/>
                         <viewControllerLayoutGuide type="bottom" id="aBC-gH-CVq"/>
@@ -125,8 +153,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="135802-135961" translatesAutoresizingMaskIntoConstraints="NO" id="xHg-S3-cvv">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <rect key="frame" x="5" y="0.0" width="600" height="600"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2T2-0y-dTD">
+                                <rect key="frame" x="373" y="558" width="227" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Return to homepage">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="lr5-pT-SbA" kind="show" id="mk2-bb-fu9"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -135,10 +173,10 @@
             </objects>
             <point key="canvasLocation" x="821" y="47"/>
         </scene>
-        <!--View Controller-->
+        <!--Ideology-->
         <scene sceneID="Ma2-7K-uOH">
             <objects>
-                <viewController id="3kj-yl-5c9" sceneMemberID="viewController">
+                <viewController id="3kj-yl-5c9" customClass="Ideology" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="LWm-Rf-3Lb"/>
                         <viewControllerLayoutGuide type="bottom" id="h2X-Uo-W8S"/>
@@ -147,6 +185,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WRh-YP-qLo">
+                                <rect key="frame" x="417" y="556" width="183" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Return to homepage">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="lr5-pT-SbA" kind="show" id="vh4-rd-8ch"/>
+                                </connections>
+                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brain image" translatesAutoresizingMaskIntoConstraints="NO" id="xg6-ja-XGM">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
@@ -164,5 +212,9 @@
         <image name="baobab tree" width="194" height="259"/>
         <image name="brain image" width="1600" height="900"/>
         <image name="c8007e9cc7c5224c-Basketball-Image" width="514" height="297"/>
+        <image name="sky-space-galaxy-milky-way" width="2291" height="3450"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="6NK-r1-cYy"/>
+    </inferredMetricsTieBreakers>
 </document>
