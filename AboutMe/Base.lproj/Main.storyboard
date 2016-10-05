@@ -36,7 +36,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Ub-nu-sFV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-739" y="147"/>
+            <point key="canvasLocation" x="-737" y="141"/>
         </scene>
         <!--Homepage-->
         <scene sceneID="pNa-ic-brR">
@@ -215,6 +215,6 @@
         <image name="sky-space-galaxy-milky-way" width="2291" height="3450"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="6NK-r1-cYy"/>
+        <segue reference="AHC-dG-R9u"/>
     </inferredMetricsTieBreakers>
 </document>
