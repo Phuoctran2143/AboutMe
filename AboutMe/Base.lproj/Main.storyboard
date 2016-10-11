@@ -20,23 +20,30 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="baobab tree" translatesAutoresizingMaskIntoConstraints="NO" id="veF-un-27p">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dfs-61-FgT">
-                                <rect key="frame" x="406" y="560" width="194" height="40"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pwy-2n-FUn">
+                                <rect key="frame" x="406" y="560" width="183" height="40"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Return to homepage">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="lr5-pT-SbA" kind="show" id="AHC-dG-R9u"/>
+                                    <segue destination="lr5-pT-SbA" kind="show" id="6NK-r1-cYy"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vrF-ZA-ZYf">
+                                <rect key="frame" x="80" y="-43" width="450" height="198"/>
+                                <string key="text">My family is the best. We consist of 4 boys and 4 girls.  I also consider my cousins as part of my family too because they have lived with me since i was 2 years old. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Ub-nu-sFV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-737" y="141"/>
+            <point key="canvasLocation" x="-735" y="149"/>
         </scene>
         <!--Homepage-->
         <scene sceneID="pNa-ic-brR">
@@ -50,9 +57,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sky-space-galaxy-milky-way" translatesAutoresizingMaskIntoConstraints="NO" id="7Ys-uw-82k">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="605"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Od-u7-fRL">
                                 <rect key="frame" x="246" y="392" width="93" height="42"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -99,6 +103,9 @@
                                     <segue destination="3kj-yl-5c9" kind="show" id="Pbn-el-eas"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sky-space-galaxy-milky-way" translatesAutoresizingMaskIntoConstraints="NO" id="7Ys-uw-82k">
+                                <rect key="frame" x="0.0" y="-5" width="600" height="605"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -120,18 +127,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="c8007e9cc7c5224c-Basketball-Image" translatesAutoresizingMaskIntoConstraints="NO" id="w26-P5-gqZ">
-                                <rect key="frame" x="0.0" y="-40" width="600" height="640"/>
+                                <rect key="frame" x="0.0" y="-20" width="600" height="640"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pwy-2n-FUn">
-                                <rect key="frame" x="417" y="560" width="183" height="40"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i18-Zf-sP3">
+                                <rect key="frame" x="406" y="556" width="194" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Return to homepage">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <connections>
-                                    <segue destination="lr5-pT-SbA" kind="show" id="6NK-r1-cYy"/>
-                                </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i5n-Qg-jGs">
+                                <rect key="frame" x="365" y="248" width="220" height="300"/>
+                                <string key="text">I have many hobbies. But my favorites is traveling and playing basketball. I play on my schools basketball team for 3 years now. I also like hiking, camping, fishing and going out and meting new people.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -153,13 +164,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="135802-135961" translatesAutoresizingMaskIntoConstraints="NO" id="xHg-S3-cvv">
-                                <rect key="frame" x="5" y="0.0" width="600" height="600"/>
+                                <rect key="frame" x="9" y="0.0" width="600" height="600"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YRn-3k-gsI">
+                                <rect key="frame" x="55" y="7" width="490" height="219"/>
+                                <string key="text">I truly believe that I am capable of reaching my potential. This is why I set my bar really high. I am going to change the world in a positive way, making a lot of money and sharing the wealth on the way. I want to inspire my generation and leave a lasting impact.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2T2-0y-dTD">
-                                <rect key="frame" x="373" y="558" width="227" height="42"/>
+                                <rect key="frame" x="351" y="557" width="227" height="42"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Return to homepage">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="lr5-pT-SbA" kind="show" id="mk2-bb-fu9"/>
@@ -185,26 +203,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WRh-YP-qLo">
-                                <rect key="frame" x="417" y="556" width="183" height="36"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Return to homepage">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="lr5-pT-SbA" kind="show" id="vh4-rd-8ch"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brain image" translatesAutoresizingMaskIntoConstraints="NO" id="xg6-ja-XGM">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <rect key="frame" x="-2" y="0.0" width="605" height="600"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9WG-k2-3xC">
+                                <rect key="frame" x="399" y="549" width="186" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Return to Homepage">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t8V-Ts-9cq">
+                                <rect key="frame" x="20" y="-44" width="577" height="234"/>
+                                <string key="text">At a young age I was thought to believe that "what you put in, you get out."  I have lived by this ideology my whole life. My mentality is that things don’t happen to you, but they happen for you. Every problem and setback is a opportunity is disguise. I also believe you create the person you want to be. I can go on forever but choose to leave off right here to capture you imagination.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0eg-7E-CFk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="821" y="1174"/>
+            <point key="canvasLocation" x="649" y="1088"/>
         </scene>
     </scenes>
     <resources>
@@ -215,6 +237,6 @@
         <image name="sky-space-galaxy-milky-way" width="2291" height="3450"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="AHC-dG-R9u"/>
+        <segue reference="6NK-r1-cYy"/>
     </inferredMetricsTieBreakers>
 </document>
